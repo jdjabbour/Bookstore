@@ -48,7 +48,3 @@ def update(id, title, author, year, isbn):
     conn.close()
 
 connect()
-#insert("The Sea", "John Smith", 2016, 123456789)
-#print(delete(6))
-print(update(1, "The Moon", "John Smith", 2016, 123456789))
-print(view())
